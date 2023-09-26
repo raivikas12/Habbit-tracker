@@ -1,0 +1,47 @@
+
+
+.addform-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    background: rgba(0, 0, 0, .5);
+    z-index: 99;
+}
+
+.add-form{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    z-index: 999;
+    width: fit-content;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid black;
+}
+
+
+.detail-view{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.child h5{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.child{
+    width: 15%;
+    margin: 1px;
+}
+
+.child button{
+    width: 30%;
+    padding: 1px;
+    border-radius: 5px;
+    margin: 5px;
+}
